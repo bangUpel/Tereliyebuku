@@ -1,0 +1,146 @@
+#navbar-top {
+    backdrop-filter: blur(10px);
+    opacity: 0.95;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-TOP: 1rem ;
+    box-shadow: 4px 0px 5px 1px #000;
+}
+
+#darwis {
+    float: left;
+    height: 10rem;
+    margin-right: 3rem;
+    box-shadow: 4px 0px 5px 1px #000;
+    
+}
+.darwis {
+    float: left;
+    height: 10rem;
+    margin-right: 3rem;
+    padding: 0px;
+    box-shadow: 2px 4px 5px 2px #000;
+    border-radius: 10px;
+
+
+}
+.flex {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+#darwis2 {
+    float: right;
+    width: 10rem;
+    margin-left: 3rem;
+    box-shadow: 4px 0px 5px 1px #000;
+}
+
+.carousel-inner {
+    display: flex;
+}
+.card-text {
+    text-align: left;
+}
+
+.cards-wrapper {
+    margin-top: 5rem;
+    display: flex;
+}
+.card {
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+#galeri {
+    border: 1px black solid;
+    border-radius: 10px;
+    position: relative;
+    margin: 0px ;
+    padding: 0px;
+    border-radius: 10px; /* Untuk sudut yang melengkung */
+    backdrop-filter: blur(10px); /* Nilai blur yang dapat disesuaikan */
+    padding: 20px;
+
+} 
+
+#marquee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#shop {
+    border-radius: 20px;
+    box-shadow: 1px 0px 3px 2px rgb(122, 123, 124);
+    backdrop-filter: blur(10px);
+}
+
+.carousel-item {
+    height: 30rem;
+    background: #000;
+    color: white;
+    position:relative;
+    border-radius: 10px;
+    box-shadow: 0px -9px 8px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -9px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -9px 8px 0px rgba(0,0,0,0.75);
+}
+
+.overlay-image {
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    background-size: cover; /* atau contain */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ol {
+    list-style-type: none;
+
+}
+
+.card-group p.card-text {
+    text-align: center;
+    height: 10rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.scroll {
+    height: 42rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.srepet {
+    width: 669px;
+}
+
+.bawah {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 5px #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 5rem;
+    border-radius: 5px;
+    
+}
+
+.carousel-item p.card-text{
+    text-align: center;
+}
